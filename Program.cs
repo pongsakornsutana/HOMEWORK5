@@ -47,7 +47,7 @@ namespace home5555
                 }
 
                 Console.WriteLine("Convolve");
-                double[,] DataFileOutputArray = Convolve(Repeated_textureArray, ConvolutionKernelArray)
+                double[,] DataFileOutputArray = Convolve(Repeated_textureArray, ConvolutionKernelArray);
 
                 WriteImageDataToFile(DataFileOutput, DataFileOutputArray);
             }
